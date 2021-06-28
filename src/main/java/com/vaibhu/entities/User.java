@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "User_Entity")
+@Table(name = "User")
 public class User {
 
 	@Id
@@ -38,9 +38,7 @@ public class User {
 		return firstName;
 	}
 
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
-	}
+	
 
 	public String getLastName() {
 		return lastName;
